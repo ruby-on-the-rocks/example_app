@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   #   get "/photos" => "photos#index"
   # end
   get "/fortune_url" => "api/my_examples#fortune_method"
+  get "/lotto_url" => "api/my_examples#lotto_method"
 end
